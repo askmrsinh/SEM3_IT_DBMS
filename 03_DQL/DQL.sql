@@ -1,6 +1,6 @@
 -- Data Query Language (DQL) / Data Retrieval Language (DRL)
 -- BASIC COMMANDS:
---   SELECT - retrieve data from the a database
+--   SELECT - retrieve data from a database
 
 
 select ID, First_name, Last_name, Gender, DOB, dpt_name, Salary
