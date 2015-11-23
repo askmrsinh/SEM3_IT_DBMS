@@ -6,28 +6,28 @@
 
 
 create table department
-	(	dpt_name	    char(18),
-		Budget		    money,
-		Building	    varchar(14),
-		Phone		      varchar(12));
+ ( dpt_name   char(18),
+  Budget      money,
+  Building    varchar(14),
+  Phone       varchar(12));
 
 create table employee_2013
-	(	ID					  int, 
-		First_name		varchar(12),
-		Last_name			varchar(12),
-		Gender				char(2),
-		DOB					  varchar(20),
-		dpt_name			char(18),
-		Salary				numeric(9,2));
+ ( ID         int, 
+  First_name  varchar(12),
+  Last_name   varchar(12),
+  Gender      char(2),
+  DOB         varchar(20),
+  dpt_name    char(18),
+  Salary      numeric(9,2));
 
 create table employee_2012
-	(	ID					  int, 
-		First_name		varchar(12),
-		Last_name			varchar(12),
-		Gender				char(2),
-		DOB				    varchar(20),
-		dpt_name			char(18),
-		Salary				numeric(9,2));
+ ( ID         int, 
+  First_name  varchar(12),
+  Last_name   varchar(12),
+  Gender      char(2),
+  DOB         varchar(20),
+  dpt_name    char(18),
+  Salary      numeric(9,2));
 
 alter table department
 drop column Phone
@@ -53,25 +53,25 @@ drop table department;
 
 
 create table department
-	(	dpt_name	    char(18),
-		Budget		    money,
-		Building	    varchar(14),
-		Phone		      varchar(12));
+ ( dpt_name   char(18),
+  Budget      money,
+  Building    varchar(14),
+  Phone       varchar(12));
 
 create table employee_2013
-	(	ID					  int, 
-		First_name		varchar(12),
-		Last_name			varchar(12),
-		Gender				char(2),
-		DOB					  varchar(20),
-		dpt_name			char(18),
-		Salary				numeric(9,2));
+ ( ID         int, 
+  First_name  varchar(12),
+  Last_name   varchar(12),
+  Gender      char(2),
+  DOB         varchar(20),
+  dpt_name    char(18),
+  Salary      numeric(9,2));
 
 create table employee_2012
-	(	ID					  int, 
-		First_name		varchar(12),
-		Last_name			varchar(12),
-		Gender				char(2),
-		DOB				    varchar(20),
-		dpt_name			char(18),
-		Salary				numeric(9,2));
+ ( ID         int, 
+  First_name  varchar(12),
+  Last_name   varchar(12),
+  Gender      char(2),
+  DOB         varchar(20),
+  dpt_name    char(18),
+  Salary      numeric(9,2));
