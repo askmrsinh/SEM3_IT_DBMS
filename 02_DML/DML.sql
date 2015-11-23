@@ -4,6 +4,7 @@
 --   UPDATE - updates existing data within a table
 --   DELETE - deletes all records from a table, the space for the records remain
 
+
 insert into department
  values
  ('R & D', 1800000000, 'Walkie Talkie', '022-12045678'),
